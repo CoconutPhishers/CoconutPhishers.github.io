@@ -7,7 +7,7 @@
     <style>
         body {
             background-color: black;
-            color: green;
+            color: #39ff14;
             font-family: 'Courier New', Courier, monospace;
             text-align: center;
             display: flex;
@@ -28,7 +28,7 @@
             text-align: justify;
         }
         #countdown-container {
-            border: 2px solid green;
+            border: 2px solid #39ff14;
             padding: 20px;
             margin: 20px 0;
             display: inline-block;
@@ -46,32 +46,9 @@
     <div class="content">
         <p>Our clues will be spread across various locations on the campus. Look around and be ready to solve puzzles, decode messages, and find hidden clues to progress through the competition. The challenge starts in:</p>
     </div>
-    <div id="countdown-container">
-        <div id="countdown"></div>
-    </div>
+
+    <p style="font-size: 4em"><b>cpctf has started!</b></p>
+    
     <p>Happy hunting!</p>
-
-    <script>
-        function countdown() {
-            const endDate = new Date("August 9, 2024 20:00:00").getTime();
-            const now = new Date().getTime();
-            const timeLeft = endDate - now;
-
-            const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
-
-            document.getElementById("countdown").innerHTML =
-                days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-
-            if (timeLeft < 0) {
-                clearInterval(x);
-                document.getElementById("countdown").innerHTML = "EXPIRED";
-            }
-        }
-
-        setInterval(countdown, 1000);
-    </script>
 </body>
 </html>
