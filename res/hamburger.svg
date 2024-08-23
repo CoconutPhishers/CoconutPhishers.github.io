@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="90mm"
+   height="90mm"
+   viewBox="0 0 90 90"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="hamburger.svg"
+   inkscape:export-xdpi="25.400002"
+   inkscape:export-ydpi="25.400002"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.5055415"
+     inkscape:cx="100.29614"
+     inkscape:cy="149.77999"
+     inkscape:window-width="1880"
+     inkscape:window-height="1096"
+     inkscape:window-x="20"
+     inkscape:window-y="84"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1"
+       transform="matrix(0.99849504,0,0,1.5796947,0.06772323,-15.599915)">
+      <rect
+         style="fill:#ffff00;stroke:#ffff00;stroke-width:0.503986;stroke-linecap:square;stroke-linejoin:bevel"
+         id="rect1"
+         width="68.841713"
+         height="14.652162"
+         x="27.37002"
+         y="21.66354"
+         ry="0"
+         transform="matrix(1,0,-0.57920302,0.81518333,0,0)" />
+      <rect
+         style="fill:#ffff00;stroke:#ffff00;stroke-width:0.503986;stroke-linecap:square;stroke-linejoin:bevel"
+         id="rect1-5"
+         width="68.841713"
+         height="14.652162"
+         x="48.301807"
+         y="57.802486"
+         ry="0"
+         transform="matrix(1,0,-0.57920302,0.81518333,0,0)" />
+      <rect
+         style="fill:#ffff00;stroke:#ffff00;stroke-width:0.503986;stroke-linecap:square;stroke-linejoin:bevel"
+         id="rect1-2"
+         width="68.841713"
+         height="14.652162"
+         x="-52.164085"
+         y="39.733013"
+         ry="0"
+         transform="matrix(-1,0,0.57920302,0.81518333,0,0)" />
+    </g>
+  </g>
+</svg>

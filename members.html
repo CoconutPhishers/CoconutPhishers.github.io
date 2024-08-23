@@ -14,6 +14,7 @@
             src="./scripts/members.js"
             defer
         ></script>
+        <script type="text/javascript" src="./scripts/common.js" defer></script>
     </head>
 
     <body>
@@ -40,8 +41,21 @@
                         <li><a href="./writeups.html">Blogs</a></li>
                     </ul>
                 </nav>
+                <div class="hamburger" onclick="openMobileNav()">
+                    <img src="./res/hamburger.svg" />
+                </div>
             </div>
         </header>
+
+        <nav id="nav-mobile">
+            <ul>
+                <li>
+                    <a href="./home.html">Home</a>
+                </li>
+                <li><a href="./members.html" class="nav-active">Members</a></li>
+                <li><a href="./writeups.html">Blogs</a></li>
+            </ul>
+        </nav>
 
         <section class="content">
             <h1>Our Team :</h1>
@@ -83,9 +97,7 @@
                                 <div class="member-name">EVAN</div>
                             </div>
                         </div>
-                        <div class="member-quote">
-                            Nothing to be said.
-                        </div>
+                        <div class="member-quote">Nothing to be said.</div>
                     </div>
                 </div>
 

@@ -10,6 +10,7 @@
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
         />
         <script type="text/javascript" src="./scripts/home.js" defer></script>
+        <script type="text/javascript" src="./scripts/common.js" defer></script>
     </head>
 
     <body>
@@ -32,8 +33,21 @@
                         <li><a href="./writeups.html">Blogs</a></li>
                     </ul>
                 </nav>
+                <div class="hamburger" onclick="openMobileNav()">
+                    <img src="./res/hamburger.svg" />
+                </div>
             </div>
         </header>
+
+        <nav id="nav-mobile">
+            <ul>
+                <li>
+                    <a href="./home.html" class="nav-active">Home</a>
+                </li>
+                <li><a href="./members.html">Members</a></li>
+                <li><a href="./writeups.html">Blogs</a></li>
+            </ul>
+        </nav>
 
         <section class="content">
             <div class="banner">
@@ -52,13 +66,42 @@
                     <p>cybersecurity awareness and excellence</p>
                     <p>within our college and beyond.</p>
                 </div>
-                <div class="graffiti">
+                <div class="passage-mobile shown">
+                    <p>
+                        We are a passionate team of cybersecurity enthusiasts
+                        from
+
+                        <span
+                            class="text hero glitch layers"
+                            data-text="IIIT-H"
+                        >
+                            <span>IIIT-H</span>
+                        </span>
+                        actively participating in CTFs and organizing
+                        cybersecurity events. Our mission is to foster a culture
+                        of cybersecurity awareness and excellence within our
+                        college and beyond.
+                    </p>
+                </div>
+                <div class="graffiti shown">
                     <img src="./res/graffiti_eye_dead_blu.png" />
                 </div>
-                <div class="contact hidden">
-                    <img class="icon" src="./res/github_yel.svg" onclick="github()" />
-                    <img class="icon" src="./res/instagram_yel.svg" onclick="insta()" />
-                    <img class="icon" src="./res/linkedin_yel.svg" onclick="linkedin()" />
+                <div class="contact">
+                    <img
+                        class="icon github"
+                        src="./res/github_yel.svg"
+                        onclick="github()"
+                    />
+                    <img
+                        class="icon insta"
+                        src="./res/instagram_yel.svg"
+                        onclick="insta()"
+                    />
+                    <img
+                        class="icon linkedin"
+                        src="./res/linkedin_yel.svg"
+                        onclick="linkedin()"
+                    />
                 </div>
             </div>
         </section>
