@@ -58,6 +58,7 @@ header {
 #nav-mobile {
     height: 0;
     transition: 1s;
+    overflow: hidden;
 }
 
 .hamburger {
