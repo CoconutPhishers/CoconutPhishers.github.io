@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 30 30"
+   width="90"
+   height="90"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="linkedin.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050" />
+  <path
+     d="M 24,4 H 6 C 4.895,4 4,4.895 4,6 v 18 c 0,1.105 0.895,2 2,2 h 18 c 1.105,0 2,-0.895 2,-2 V 6 C 26,4.895 25.105,4 24,4 Z M 10.954,22 h -2.95 v -9.492 h 2.95 z M 9.449,11.151 c -0.951,0 -1.72,-0.771 -1.72,-1.72 0,-0.949 0.77,-1.719 1.72,-1.719 0.948,0 1.719,0.771 1.719,1.719 0,0.949 -0.771,1.72 -1.719,1.72 z M 22.004,22 h -2.948 v -4.616 c 0,-1.101 -0.02,-2.517 -1.533,-2.517 -1.535,0 -1.771,1.199 -1.771,2.437 V 22 h -2.948 v -9.492 h 2.83 v 1.297 h 0.04 c 0.394,-0.746 1.356,-1.533 2.791,-1.533 2.987,0 3.539,1.966 3.539,4.522 V 22 Z"
+     id="path1"
+     style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+</svg>

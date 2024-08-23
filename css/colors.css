@@ -1,0 +1,8 @@
+:root {
+/*    --primary-color: #d600f5;  /* fluoroscent purple */
+    --primary-color: #4D4DFF;  /* neon blue */
+    --secondary-color: yellow; /* A shade of green */
+/*    --background-color: rgba(83, 0, 96, 1); /* purple background */
+    --background-color: rgba(0,0,96, 1);
+    --text-color: #333333; /* Dark grey for text */
+}

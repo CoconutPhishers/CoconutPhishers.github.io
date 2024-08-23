@@ -1,0 +1,123 @@
+@import url("./glitch.css");
+@import url("./colors.css");
+@import url("./common.css");
+
+head,
+body {
+    overflow-y: auto;
+}
+
+/* content */
+
+.content {
+    margin: 20px 5% auto 5%;
+    width: 90%;
+}
+
+/*  members cards */
+
+h1 {
+    font-size: 4em;
+    padding: 2%;
+
+    color: var(--secondary-color);
+    text-shadow: 0 0 10px var(--primary-color);
+}
+
+p {
+    font-size: 3em;
+}
+
+#members-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+}
+
+/* Member card */
+
+.member-card {
+    width: 27%;
+    height: 30%;
+    padding: 30px;
+
+    color: white;
+
+    margin: 1%;
+
+    clip-path: polygon(96% 0, 100% 10%, 100% 100%, 4% 100%, 0% 90%, 0 0);
+
+    border: 5px solid var(--primary-color);
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    cursor: pointer;
+
+    text-decoration: unset;
+}
+
+.inner-card {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-header img {
+    background-color: black;
+    border-radius: 50%;
+
+    width: 100px;
+    height: 100px;
+
+    margin-right: 30px;
+}
+
+.card-title {
+    margin-left: auto;
+    flex: 1 0 auto;
+}
+
+.member-username {
+    font-size: 200%;
+    font-weight: 1000;
+
+    font-family: terminal;
+
+    color: var(--secondary-color);
+
+    display: block;
+    text-shadow: 0 0 10px var(--primary-color);
+
+    letter-spacing: unset;
+    line-height: unset;
+}
+
+.member-name {
+    font-family: monospace;
+    font-size: 150%;
+    font-weight: 900;
+
+    color: var(--primary-color);
+}
+
+.member-quote {
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    font-family: monospace;
+    font-size: 150%;
+    font-weight: 900;
+
+    color: var(--primary-color);
+}
