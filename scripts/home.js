@@ -35,3 +35,18 @@ contact_card.addEventListener("click", function () {
     shown_element.classList.toggle("hidden");
     shown_element.classList.toggle("shown");
 });
+
+function github()
+{
+    window.open("https://github.com/CoconutPhishers", '_blank').focus();
+}
+
+function insta()
+{
+    window.open("https://www.instagram.com/coconut.phishers?igsh=OTd3MnE3c2d1ZjI1", '_blank').focus();
+}
+
+function linkedin()
+{
+    window.open("https://www.linkedin.com/company/coconut-phishers/", '_blank').focus();
+}
